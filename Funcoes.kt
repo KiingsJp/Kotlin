@@ -1,3 +1,9 @@
+// permite suspender a função por um tempo
+suspend fun minhaFuncaoSuspend() {
+    println("Início da função suspend")
+    delay(1000) // Pausa a execução por 1 segundo
+    println("Fim da função suspend")
+}
 
 // tem como tipo padrão o Unit ( semRetorno(): Unit )
 fun semRetorno(){
