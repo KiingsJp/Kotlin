@@ -8,7 +8,7 @@ fun main(){
     // Para permitir um valor nulo, deve adicionar "?" no tipo da variável
     val casa: Casa? = null;
 
-    // Desta forma o koltin já sabe que vai dar null pointer então o compilador não aceita
+    // Desta forma o koltin sabe que pode dar null pointer então o compilador não aceita
 //    println(casa.sofa);
 
     // Dessa forma o Kotlin já percebe a verificação e não reclama erro
