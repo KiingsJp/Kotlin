@@ -14,7 +14,7 @@ fun main() {
     // ----------------------------------------- LET -----------------------------------------
     val produto1: Produto? = Produto("PS5", 5000)
 
-    // NORMALMENTE UTILIZAMOS O LET PARA SUBSTITUIR ESTE TRECO DE CÓDIGO:
+    // NORMALMENTE UTILIZAMOS O LET PARA SUBSTITUIR ESTE TRECHO DE CÓDIGO:
     if (produto1 != null) {
         produto1.preco = 4500
     }
