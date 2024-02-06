@@ -33,5 +33,4 @@ class Tigre : Mamifero() {
         super.correr();
         println("Tigre veloz");
     }
-
 }
