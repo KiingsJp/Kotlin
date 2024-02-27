@@ -12,7 +12,7 @@ fun main() {
     // FUNÇÕES DE ESCOPO SÃO UTILIZADAS PARA FACILITAR A LEITURA DO CÓDIGO
 
     // ----------------------------------------- LET -----------------------------------------
-    val produto1: Produto? = Produto("PS5", 5000)
+    val produto1: Produto? = Produto("PS5", 5100)
 
     // NORMALMENTE UTILIZAMOS O LET PARA SUBSTITUIR ESTE TRECHO DE CÓDIGO:
     if (produto1 != null) {
