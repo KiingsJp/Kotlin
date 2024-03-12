@@ -1,6 +1,5 @@
 // UMA CLASSE ABSTRATA NÃO PODE SER INSTANCIADA, É APENAS PARA SERVIR DE BASE PARA CRIAR OUTRAS CLASSES
 abstract class Mamifero() {
-
     var cor: String = "";
     var tamanho: String = "";
     var peso: Double = 0.0;
@@ -18,7 +17,6 @@ class Bezerro : Mamifero() {
     // OBRIGATÓRIOS POIS ELES SÃO MÉTODOS ABSTRATOS
     override fun mamar() = println("Mamando");
     override fun dormir() = println("Dormindo");
-
 }
 
 // CLASSE CONCRETA
