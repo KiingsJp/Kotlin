@@ -8,13 +8,13 @@ import retrofit2.Callback
 
 fun main() {
     val retrofit = RetrofitHelper.retrofit.create(EnderecoAPI::class.java)
-    val call = retrofit.buscarEndereco()
+    val call = retrofit.buscarEndereco("01001000")
 
     call.enqueue(object : Callback<Endereco> {
         override fun onResponse(call: Call<Endereco>, response: Response<Endereco>) {
             if (response.isSuccessful) {
                 response.body()?.let { endereco ->
-                    println("${endereco.bairro}, rua: ${endereco.logradouro}")
+                    println("${endereco.bairro}, rua: ${endereco.rua}")
                 }
             }
         }
